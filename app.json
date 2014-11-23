@@ -1,0 +1,18 @@
+{
+    "name": "Clear Transit",
+    "description": "Clear Transit web server",
+    "keywords": [
+        "transit",
+        "Sinatra",
+        "Ruby"
+    ],
+    "website": "https://github.com/IamTheFij/ClearTransit-Web",
+    "repository": "https://github.com/IamTheFij/ClearTransit-Web",
+    "success_url": "/working",
+    "scripts": {
+        "postdeploy": "ruby ./build_agency_bounds.rb"
+    },
+    "addons": [
+        "heroku-postgresql:hobby-dev"
+    ]
+}
