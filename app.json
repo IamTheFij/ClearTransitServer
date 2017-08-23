@@ -1,13 +1,13 @@
 {
     "name": "Clear Transit",
-    "description": "Clear Transit web server",
+    "description": "Server application for Clear Transit",
     "keywords": [
         "transit",
         "Sinatra",
         "Ruby"
     ],
-    "website": "https://github.com/IamTheFij/ClearTransit-Web",
-    "repository": "https://github.com/IamTheFij/ClearTransit-Web",
+    "website": "https://github.com/IamTheFij/ClearTransitServer",
+    "repository": "https://github.com/IamTheFij/ClearTransitServer",
     "success_url": "/working",
     "scripts": {
         "postdeploy": "ruby ./build_agency_bounds.rb"
